@@ -1,13 +1,12 @@
 package it.auth.security.core;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.AutoConfiguration;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.context.annotation.ComponentScan;
 
-@SpringBootApplication
-public class AuthSecurityCoreApplication {
-
-    public static void main(String[] args) {
-        SpringApplication.run(AuthSecurityCoreApplication.class, args);
-    }
+@AutoConfiguration
+@ComponentScan(basePackages = "it.auth.security.core")
+@EntityScan(basePackages = "it.auth.security.core.entity")
+public class AuthSecurityCoreApplication{
 
 }
