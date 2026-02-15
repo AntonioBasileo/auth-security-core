@@ -12,7 +12,7 @@
 
     <groupId>it.auth.security</groupId>
     <artifactId>auth-security-core</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>auth-security-core</name>
     <description>auth-security-core</description>
 
